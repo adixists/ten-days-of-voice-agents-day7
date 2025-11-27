@@ -129,6 +129,13 @@ Orders are stored in `data/order_history.json` as a list of order objects. Each 
 - Delivery notes
 - Status
 
+For demonstration purposes, you can manually update order statuses using the provided script:
+```bash
+python update_order_status.py
+```
+
+This will show available orders and instructions for updating their statuses.
+
 ## Usage Examples
 
 The agent can handle various user requests:
