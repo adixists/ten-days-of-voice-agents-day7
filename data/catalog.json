@@ -1,0 +1,133 @@
+{
+  "categories": {
+    "groceries": [
+      {
+        "id": "g001",
+        "name": "Whole Wheat Bread",
+        "brand": "HealthyChoice",
+        "price": 2.99,
+        "size": "500g",
+        "tags": ["gluten-free"]
+      },
+      {
+        "id": "g002",
+        "name": "Organic Eggs",
+        "brand": "FarmFresh",
+        "price": 4.49,
+        "size": "12 count",
+        "tags": ["organic"]
+      },
+      {
+        "id": "g003",
+        "name": "Almond Milk",
+        "brand": "NutriBlend",
+        "price": 3.79,
+        "size": "1L",
+        "tags": ["vegan", "dairy-free"]
+      },
+      {
+        "id": "g004",
+        "name": "Bananas",
+        "brand": "SunRipe",
+        "price": 0.29,
+        "size": "per piece",
+        "tags": ["organic"]
+      },
+      {
+        "id": "g005",
+        "name": "Cheddar Cheese",
+        "brand": "CheesyDelight",
+        "price": 5.99,
+        "size": "200g",
+        "tags": []
+      }
+    ],
+    "snacks": [
+      {
+        "id": "s001",
+        "name": "Potato Chips",
+        "brand": "CrunchyMunch",
+        "price": 2.49,
+        "size": "150g",
+        "tags": ["vegetarian"]
+      },
+      {
+        "id": "s002",
+        "name": "Chocolate Bar",
+        "brand": "SweetDreams",
+        "price": 1.99,
+        "size": "100g",
+        "tags": ["vegetarian"]
+      },
+      {
+        "id": "s003",
+        "name": "Mixed Nuts",
+        "brand": "NuttyMix",
+        "price": 6.99,
+        "size": "250g",
+        "tags": ["vegan", "gluten-free"]
+      }
+    ],
+    "prepared_food": [
+      {
+        "id": "p001",
+        "name": "Margherita Pizza",
+        "brand": "PizzaPalace",
+        "price": 12.99,
+        "size": "Medium (12 inch)",
+        "tags": ["vegetarian"]
+      },
+      {
+        "id": "p002",
+        "name": "Chicken Sandwich",
+        "brand": "SandwichHub",
+        "price": 8.99,
+        "size": "Regular",
+        "tags": []
+      },
+      {
+        "id": "p003",
+        "name": "Caesar Salad",
+        "brand": "GreenGarden",
+        "price": 7.49,
+        "size": "Large",
+        "tags": ["vegetarian"]
+      }
+    ],
+    "beverages": [
+      {
+        "id": "b001",
+        "name": "Orange Juice",
+        "brand": "CitrusFresh",
+        "price": 3.49,
+        "size": "1L",
+        "tags": ["organic"]
+      },
+      {
+        "id": "b002",
+        "name": "Coffee Beans",
+        "brand": "MorningBrew",
+        "price": 9.99,
+        "size": "500g",
+        "tags": []
+      }
+    ]
+  },
+  "recipes": {
+    "peanut_butter_sandwich": {
+      "name": "Peanut Butter Sandwich",
+      "items": ["g001", "g005"],
+      "description": "Ingredients for a classic peanut butter sandwich"
+    },
+    "pasta_for_two": {
+      "name": "Pasta for Two",
+      "items": ["p003", "b001"],
+      "description": "Ingredients for pasta meal for two people"
+    },
+    "healthy_breakfast": {
+      "name": "Healthy Breakfast",
+      "items": ["g002", "g004", "b002"],
+      "description": "Ingredients for a healthy breakfast"
+    }
+  }
+}
