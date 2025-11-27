@@ -83,6 +83,11 @@ You can test the food catalog by running:
 python test_catalog.py
 ```
 
+You can test the order history functionality by running:
+```bash
+python test_order_history.py
+```
+
 ## Catalog Structure
 
 The food catalog is stored in `data/catalog.json` with the following structure:
