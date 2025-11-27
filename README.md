@@ -58,6 +58,14 @@ This project implements a food and grocery ordering voice agent that allows user
    MURF_API_KEY=your-murf-api-key
    ```
 
+   You'll need to obtain actual credentials from:
+   - [LiveKit Cloud](https://cloud.livekit.io/)
+   - [Deepgram Console](https://console.deepgram.com/)
+   - [Google Cloud Console](https://console.cloud.google.com/)
+   - [Murf AI](https://murf.ai/)
+
+   **Important**: The `.env.local` file is included in `.gitignore` to prevent accidental credential exposure.
+
 ## Running the Agent
 
 1. Start the backend agent:
