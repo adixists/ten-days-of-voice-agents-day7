@@ -96,6 +96,11 @@ You can test the order history functionality by running:
 python test_order_history.py
 ```
 
+You can run a demo of the agent logic without requiring API credentials:
+```bash
+python demo_agent_logic.py
+```
+
 ## Catalog Structure
 
 The food catalog is stored in `data/catalog.json` with the following structure:
